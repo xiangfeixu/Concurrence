@@ -8,7 +8,7 @@ import java.util.concurrent.Future;
 
 /**
  * 倒计时器CountDownLatch用法示例
- * 多线程协同工作工具类 控制N个线程全部完成后
+ * 多线程协同工作工具类 控制N个线程全部完成.调用await方法阻塞主线程，直到所有子线程执行完毕.
  * @author xuxiangfei
  * @date 2019/1/3
  */
